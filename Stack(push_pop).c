@@ -1,3 +1,8 @@
+/*
+    Email: shuvroshawon9@gmail.com
+    Algorithm: Stack(push & pop)
+*/
+
 /*STACK PUSH() AND POP() IMPLEMENTATION USING ARRAYS*/
 #include <stdio.h>
 #define MAX 5
