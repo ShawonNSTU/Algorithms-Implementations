@@ -1,3 +1,7 @@
+/*
+    Email: shuvroshawon9@gmail.com
+*/
+
 #include <stdio.h>
 #include <string.h>
 int array[1000];
