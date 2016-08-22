@@ -3,12 +3,11 @@
 */
 
 #include <bits/stdc++.h>
-using namespace std;
 int main()
 {
     int a,b;
     double digit=0;
-    cin>>a>>b;
+    scanf("%d %d",&a,&b);
 /*
     Here,
 
@@ -19,6 +18,6 @@ int main()
 */
     for(int i=1;i<=b;i++)
         digit+=log10(a);
-    cout<<ceil(digit)<<endl;
+    printf("%.0lf\n",ceil(digit));
     return 0;
 }
