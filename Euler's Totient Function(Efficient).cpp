@@ -1,3 +1,8 @@
+/*
+    Email: shuvroshawon9@gmail.com
+    Algorithm: Euler's Totient Function
+*/
+
 #include <bits/stdc++.h>
 int phi(int n)
 {
