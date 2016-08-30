@@ -1,3 +1,7 @@
+/*
+    Email: shuvroshawon9@gmail.com
+*/
+
 #include <bits/stdc++.h>
 #define MAX 10000000
 char prime[MAX];
