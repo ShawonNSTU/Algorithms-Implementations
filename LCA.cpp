@@ -24,7 +24,7 @@ void LCA_BUILD_TREE(int node,int b,int e)
     }
     int Left = node << 1;
     int Right = (node << 1) + 1;
-    int mid = (b + e) / 2;
+    int mid = (b + e) >> 1;
     LCA_BUILD_TREE(Left,b,mid);
     LCA_BUILD_TREE(Right,mid+1,e);
     if(lca_height[lca_tree[Left]] < lca_height[lca_tree[Right]]){
@@ -57,7 +57,7 @@ int LCA_TREE_MIN(int node,int b,int e,int i,int j)
     if(b >= i && e <= j) return lca_tree[node];
     int Left = node << 1;
     int Right = (node << 1) + 1;
-    int mid = (b + e) / 2;
+    int mid = (b + e) >> 1;
     int p1 = LCA_TREE_MIN(Left,b,mid,i,j);
     int p2 = LCA_TREE_MIN(Right,mid+1,e,i,j);
     if(p1 == -1) return p2;
